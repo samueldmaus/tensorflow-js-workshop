@@ -1,6 +1,7 @@
 // More API functions here:
 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
+// put my link into here from https://teachablemachine.withgoogle.com/train/image
 // the link to your model provided by Teachable Machine export panel
 const URL = './demo-image-model/';
 
@@ -56,4 +57,4 @@ async function predict() {
         }
         $('#label-container').children().eq(i).html(classPrediction)
     }
-}
+}o
